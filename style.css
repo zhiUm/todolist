@@ -1,0 +1,42 @@
+html {
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    background: skyblue;
+  }
+
+  h1 {
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: "Avenir Next", Helevetica, sans-serif;
+    color: rgb(247, 123, 123);
+    padding-left: 100px;
+  }
+  
+  body {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  input {
+    width: 500px;
+    height: 100px;
+    font-size: 40px;
+    color: rgb(247, 123, 123);
+    background:skyblue;
+    border: 0;
+  }
+
+  input:focus {
+    outline: none;
+  }
+  
+  li {
+    text-align: left;
+    font-size: 40px;
+    margin: 0;
+    list-style: none;
+  }
+  
+  li:hover {
+    text-decoration: line-through;
+    color:lightgreen;
+  }
